@@ -39,7 +39,7 @@ namespace Fanxs.cn.QQLight
 
             "\"plugin_author\":\"Fanx繁星\",         //插件作者\r\n" +
 
-            "\"plugin_version\":\"1.4.0\",         //插件版本号\r\n" +
+            "\"plugin_version\":\"1.5.0\",         //插件版本号\r\n" +
 
             "\"plugin_brief\":\"c#SDK_API演示，有些功能需要Pro支持，请确保您的框架版本为pro版本\",        // \\r代表换行\r\n" +
 
