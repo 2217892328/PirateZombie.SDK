@@ -1,5 +1,5 @@
 # QQLight_SDK_For_Csharp
-> 作者：Fanx繁星 更新时间：2020-01-26  希望用过的朋友把不稳定的有漏洞的反馈给我，谢谢
+> 作者：Fanx繁星 更新时间：2020-01-31  希望用过的朋友把不稳定的有漏洞的反馈给我，谢谢
 #### 介绍
 QQLight_SDK_For_Csharp
 QQLight开发插件时使用到的SDK
@@ -92,6 +92,11 @@ Event_Menu<br>
 #### API方法
 QLAPI.Api_GetMovieJson(String name,String page)   获取影视资源接口调用
 
+#### 联系我
 如果有什么小bug，欢迎来告诉我
+
 联系QQ:2217892328
+
+邮箱：fanxing@fanxs.cn
+
 个人网站：www.fanxs.cn
