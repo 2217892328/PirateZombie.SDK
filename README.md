@@ -49,7 +49,7 @@ QQLight开发插件时使用到的SDK
 
 #### 安装教程
 
-克隆/下载 V1.0（[下载ZIP](https://github.com/2217892328/QQLight_SDK_For_Csharp/archive/master.zip)）
+克隆/下载 V1.0（[下载ZIP](https://github.com/2217892328/QQLightSDK_For_Csharp/archive/master.zip)）
 使用VisualStudio打开（推荐vs2019）
 
 #### 使用教程
