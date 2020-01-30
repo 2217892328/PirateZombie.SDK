@@ -57,6 +57,8 @@ QQLight开发插件时使用到的SDK
 开发教程：
 具体请看QQLight开发文档：（[https://www.kancloud.cn/iporus/qqlight/1394267](https://www.kancloud.cn/iporus/qqlight/1394267)）
 
+Csharp版本开发手册：（[https://github.com/2217892328/QQLightSDK_For_Csharp/wiki](https://github.com/2217892328/QQLightSDK_For_Csharp/wiki)）
+
 构造插件：
 
 1.在Information方法内修改插件的信息
@@ -87,6 +89,8 @@ Event_FriendChange<br>
 Event_FileArrive<br>
 Event_Menu<br>
 
+#### API方法
+QLAPI.Api_GetMovieJson(String name,String page)   获取影视资源接口调用
 
 如果有什么小bug，欢迎来告诉我
 联系QQ:2217892328
