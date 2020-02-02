@@ -1,4 +1,4 @@
-# QQLight_SDK_For_Csharp
+# PirateZombie.SDK（QQLight SDK for Csharp）
 > 作者：Fanx繁星 更新时间：2020-01-31  希望用过的朋友把不稳定的有漏洞的反馈给我，谢谢
 #### 介绍
 QQLight_SDK_For_Csharp
