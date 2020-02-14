@@ -73,7 +73,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FanxsTool\Qlvar.cs" />
     <Compile Include="MainFrom\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,14 +120,7 @@
   <ItemGroup>
     <None Include="Resources\DMSkin.dll" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App\Dao\" />
-    <Folder Include="App\Entity\" />
-    <Folder Include="App\Factory\" />
-    <Folder Include="App\InterFace\" />
-    <Folder Include="App\TestClass\" />
-    <Folder Include="App\Util\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ImportGroup Label=".NET DllExport" />
   <ImportGroup Label=".NET DllExport" />

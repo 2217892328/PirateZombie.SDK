@@ -126,7 +126,7 @@ namespace Fanxs.cn.QQLight.MainFrom
         {
             String msid = QLAPI.Api_SendMsg(1, "", qqb.Text, "测试信息", ac);
             System.Windows.Forms.MessageBox.Show("开始撤回");
-            QLAPI.Api_DeleteMsg_xiu(1, "", qqb.Text, msid, ac);
+            QLAPI.Api_DeleteMsg(1, "", qqb.Text, msid, ac);
         }
 
         private void button21_Click(object sender, EventArgs e)

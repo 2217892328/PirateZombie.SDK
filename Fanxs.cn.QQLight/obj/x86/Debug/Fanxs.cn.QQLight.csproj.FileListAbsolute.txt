@@ -13,3 +13,4 @@ D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\Fanxs.cn.
 D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\Fanxs.cn.QQLight.csproj.GenerateResource.cache
 D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\Fanxs.cn.QQLight.csproj.Fody.CopyLocal.cache
 D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\fanxs.cn.ql.dll
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\Fanxs.cn.QQLight.csprojAssemblyReference.cache
