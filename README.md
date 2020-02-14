@@ -56,7 +56,7 @@ QQLight开发插件时使用到的SDK
 
 #### 安装教程
 
-克隆/下载 V1.0（[下载ZIP](https://github.com/2217892328/QQLightSDK_For_Csharp/archive/master.zip)）
+克隆/下载 V1.0（[下载ZIP](https://github.com/2217892328/PirateZombie.SDK/archive/master.zip/wiki)）
 使用VisualStudio打开（推荐vs2019）
 
 #### 使用教程
@@ -64,7 +64,7 @@ QQLight开发插件时使用到的SDK
 开发教程：
 具体请看QQLight开发文档：（[https://www.kancloud.cn/iporus/qqlight/1394267](https://www.kancloud.cn/iporus/qqlight/1394267)）
 
-Csharp版本开发手册：（[https://github.com/2217892328/QQLightSDK_For_Csharp/wiki](https://github.com/2217892328/QQLightSDK_For_Csharp/wiki)）
+Csharp版本开发手册：（[https://github.com/2217892328/PirateZombie.SDK/wiki](https://github.com/2217892328/PirateZombie.SDK/wiki)）
 
 构造插件：
 
