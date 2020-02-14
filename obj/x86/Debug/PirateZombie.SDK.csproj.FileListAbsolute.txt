@@ -1,0 +1,1 @@
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\obj\x86\Debug\PirateZombie.SDK.csprojAssemblyReference.cache

@@ -1,0 +1,16 @@
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\bin\x86\Debug\fanxs.cn.ql.dll
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\PirateZombie.SDK.csprojAssemblyReference.cache
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\PirateZombie.SDK.MainFrom.Form1.resources
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\PirateZombie.SDK.MainFrom.repair.resources
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\PirateZombie.SDK.Properties.Resources.resources
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\PirateZombie.SDK.csproj.GenerateResource.cache
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\PirateZombie.SDK.csproj.Fody.CopyLocal.cache
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\fanxs.cn.ql.dll
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\PirateZombie.SDK\bin\x86\Debug\PirateZombie.sdk.ql.dll
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\PirateZombie.SDK\obj\x86\Debug\PirateZombie.SDK.csprojAssemblyReference.cache
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\PirateZombie.SDK\obj\x86\Debug\PirateZombie.SDK.MainFrom.Form1.resources
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\PirateZombie.SDK\obj\x86\Debug\PirateZombie.SDK.MainFrom.repair.resources
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\PirateZombie.SDK\obj\x86\Debug\PirateZombie.SDK.Properties.Resources.resources
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\PirateZombie.SDK\obj\x86\Debug\PirateZombie.SDK.csproj.GenerateResource.cache
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\PirateZombie.SDK\obj\x86\Debug\PirateZombie.SDK.csproj.Fody.CopyLocal.cache
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\PirateZombie.SDK\obj\x86\Debug\PirateZombie.sdk.ql.dll
