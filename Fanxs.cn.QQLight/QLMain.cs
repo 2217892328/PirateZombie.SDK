@@ -39,7 +39,7 @@ namespace Fanxs.cn.QQLight
 
             "\"plugin_author\":\"Fanx繁星\",         //插件作者\r\n" +
 
-            "\"plugin_version\":\"1.5.0\",         //插件版本号\r\n" +
+            "\"plugin_version\":\"1.5.2\",         //插件版本号\r\n" +
 
             "\"plugin_brief\":\"c#SDK_API演示，有些功能需要Pro支持，请确保您的框架版本为pro版本\",        // \\r代表换行\r\n" +
 
@@ -59,9 +59,6 @@ namespace Fanxs.cn.QQLight
         [DllExport("Event_Initialization", CallingConvention = CallingConvention.Winapi)]
         public static int Event_Initialization()
         {
-
-            QLAPI.init();//初始化API，不可删除
-            QLAPI.Api_SendLog("调试信息", "初始化API成功，运行目录：" + Application.StartupPath, 3, ac);
             return 0;
         }
 
@@ -73,6 +70,8 @@ namespace Fanxs.cn.QQLight
         [DllExport("Event_pluginStart", CallingConvention = CallingConvention.Winapi)]
         public static int Event_pluginStart()
         {
+            QLAPI.init();//初始化API，不可删除
+            QLAPI.Api_SendLog("调试信息", "初始化API成功，运行目录：" + Application.StartupPath, 3, ac);
             QLAPI.CoInitialize(0);
             return 0;
         }
@@ -103,10 +102,6 @@ namespace Fanxs.cn.QQLight
         public static int Event_GetNewMsg(int type, string GroupID, string FromQQ, string Msg, string MsgID)
         {
             QLAPI.Api_SendLog("收到信息", string.Format("type:{0},GroupID:{1},FromQQ:{2},Msg:{3},MsgID:{4}", type, GroupID, FromQQ, Msg, MsgID), 0, ac);
-            if (Msg.IndexOf("s") > -1)
-            {
-                QLAPI.Api_SendMsg(type, GroupID, FromQQ, "您发送了带有s的字符串", ac);
-            }
             return MSG_CONTINUE;
 
             // MSG_INTERCEPT 代表拦截消息不传递到下一个插件，插件的优先级可以通过拖拽插件列表来调整  

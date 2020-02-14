@@ -6,3 +6,10 @@ C:\Users\Object\Documents\c#\QQLight_SDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Deb
 C:\Users\Object\Documents\c#\QQLight_SDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\Fanxs.cn.QQLight.csproj.GenerateResource.cache
 C:\Users\Object\Documents\c#\QQLight_SDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\Fanxs.cn.QQLight.csproj.Fody.CopyLocal.cache
 C:\Users\Object\Documents\c#\QQLight_SDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\fanxs.cn.ql.dll
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\bin\x86\Debug\fanxs.cn.ql.dll
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\Fanxs.cn.QQLight.MainFrom.Form1.resources
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\Fanxs.cn.QQLight.MainFrom.repair.resources
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\Fanxs.cn.QQLight.Properties.Resources.resources
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\Fanxs.cn.QQLight.csproj.GenerateResource.cache
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\Fanxs.cn.QQLight.csproj.Fody.CopyLocal.cache
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\Fanxs.cn.QQLight\obj\x86\Debug\fanxs.cn.ql.dll

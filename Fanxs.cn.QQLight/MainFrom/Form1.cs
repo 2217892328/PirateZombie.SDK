@@ -126,7 +126,7 @@ namespace Fanxs.cn.QQLight.MainFrom
         {
             String msid = QLAPI.Api_SendMsg(1, "", qqb.Text, "测试信息", ac);
             System.Windows.Forms.MessageBox.Show("开始撤回");
-            QLAPI.Api_DeleteMsg("1", "", qqb.Text, msid, ac);
+            QLAPI.Api_DeleteMsg_xiu(1, "", qqb.Text, msid, ac);
         }
 
         private void button21_Click(object sender, EventArgs e)
@@ -231,8 +231,7 @@ namespace Fanxs.cn.QQLight.MainFrom
 
         private void button41_Click(object sender, EventArgs e)
         {
-            //NewApi.APi_InviteFriendToGroup(qb.Text, q.Text, ac);
-            System.Windows.Forms.MessageBox.Show("已经删除当前API");
+            QLAPI.Api_InviteFriend(qb.Text, q.Text, ac);
         }
 
 
@@ -240,6 +239,26 @@ namespace Fanxs.cn.QQLight.MainFrom
         private void button41_Click_1(object sender, EventArgs e)
         {
             QLAPI.Api_InviteFriend(qb.Text, q.Text, ac);
+        }
+
+        private void button61_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button60_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroTabPage1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
