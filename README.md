@@ -1,4 +1,4 @@
-# PirateZombie.SDK（QQLight SDK for Csharp）最好使用 vs2019 打开
+# PirateZombie.SDK（最好使用 vs2019 打开）
 > 作者：Fanx繁星 更新时间：2020-02-14  希望用过的朋友把不稳定的有漏洞的反馈给我，谢谢
 #### 介绍
 QQLight_SDK_For_Csharp
