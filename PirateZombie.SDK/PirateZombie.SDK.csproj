@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PirateZombie.SDK</RootNamespace>
-    <AssemblyName>PirateZombie.sdk.ql</AssemblyName>
+    <AssemblyName>PirateZombie.SDK.Demo.ql</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

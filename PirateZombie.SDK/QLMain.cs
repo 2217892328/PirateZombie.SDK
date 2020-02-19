@@ -33,13 +33,13 @@ namespace PirateZombie.SDK
 
             string szPluginInfo = "{\r\n" +
 
-            "\"plugin_id\":\"fanxs.cn\",   //插件ID\r\n" +
+            "\"plugin_id\":\"PirateZombie.SDK.Demo\",   //插件ID\r\n" +
 
             "\"plugin_name\":\"PirateZombie.SDK.Demo\",        //插件名称\r\n" +
 
             "\"plugin_author\":\"Fanx繁星\",         //插件作者\r\n" +
 
-            "\"plugin_version\":\"1.5.2\",         //插件版本号\r\n" +
+            "\"plugin_version\":\"1.5.3\",         //插件版本号\r\n" +
 
             "\"plugin_brief\":\"PirateZombie.SDK.Demo，有些功能需要Pro支持，请确保您的框架版本为pro版本\",        // \\r代表换行\r\n" +
 
@@ -59,6 +59,8 @@ namespace PirateZombie.SDK
         [DllExport("Event_Initialization", CallingConvention = CallingConvention.Winapi)]
         public static int Event_Initialization()
         {
+            QLAPI.init();//初始化API，不可删除
+            QLAPI.Api_SendLog("调试信息", "初始化API成功，运行目录：" + Application.StartupPath, 3, ac);
             return 0;
         }
 
@@ -70,8 +72,6 @@ namespace PirateZombie.SDK
         [DllExport("Event_pluginStart", CallingConvention = CallingConvention.Winapi)]
         public static int Event_pluginStart()
         {
-            QLAPI.init();//初始化API，不可删除
-            QLAPI.Api_SendLog("调试信息", "初始化API成功，运行目录：" + Application.StartupPath, 3, ac);
             QLAPI.CoInitialize(0);
             return 0;
         }
