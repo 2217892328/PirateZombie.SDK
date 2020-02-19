@@ -37,7 +37,7 @@ namespace PirateZombie.SDK
 
             "\"plugin_name\":\"PirateZombie.SDK.Demo\",        //插件名称\r\n" +
 
-            "\"plugin_author\":\"Fanx繁星\",         //插件作者\r\n" +
+            "\"plugin_author\":\"Fanx繁星Cloud\",         //插件作者\r\n" +
 
             "\"plugin_version\":\"1.5.3\",         //插件版本号\r\n" +
 

@@ -5,3 +5,4 @@ D:\GitHub\QQLight\QQLightSDK_For_Csharp\PirateZombie.SDK\obj\x86\Debug\PirateZom
 D:\GitHub\QQLight\QQLightSDK_For_Csharp\PirateZombie.SDK\obj\x86\Debug\PirateZombie.SDK.csproj.GenerateResource.cache
 D:\GitHub\QQLight\QQLightSDK_For_Csharp\PirateZombie.SDK\obj\x86\Debug\PirateZombie.SDK.csproj.Fody.CopyLocal.cache
 D:\GitHub\QQLight\QQLightSDK_For_Csharp\PirateZombie.SDK\obj\x86\Debug\PirateZombie.SDK.Demo.ql.dll
+D:\GitHub\QQLight\QQLightSDK_For_Csharp\PirateZombie.SDK\obj\x86\Debug\PirateZombie.SDK.csprojAssemblyReference.cache
