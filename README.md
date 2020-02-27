@@ -1,50 +1,8 @@
 # PirateZombie.SDK（最好使用 vs2019 打开）
-> 作者：Fanx繁星 更新时间：2020-02-14  希望用过的朋友把不稳定的有漏洞的反馈给我，谢谢
+> 作者：Fanx繁星 更新时间：2020-02-27  希望用过的朋友把不稳定的有漏洞的反馈给我，谢谢
 #### 介绍
 QQLight_SDK_For_Csharp
 QQLight开发插件时使用到的SDK
-
-#### 更新
-[2020-01-23] QQLight_SDK_For_Csharp V1.0<br>
-1.第一个版本没有更新...<br>
-
-[2020-01-24] QQLight_SDK_For_Csharp V1.1<br>
-1.取指定QQ名片赞数量时发生闪退<br>
-2.取指定QQ等级时发生闪退<br>
-3.取QQ性别时闪退<br>
-
-[2020-01-25]QQLight_SDK_For_Csharp V1.2<br>
-1.获取群信息闪退<br>
-2.获取群介绍闪退复现<br>
-
-[2020-01-25]QQLight_SDK_For_Csharp V1.3<br>
-1.演示设置窗口换成API　DEMO测试
-
-[2020-01-26]QQLight_SDK_For_Csharp V1.4<br>
-1.修复APi_Send_Msg 发送两次消息后闪退<br>
-2.更换DLL引用的方式<br>
-3.修复除APi_Send_Msg外，其他闪退问题<br>
-4.修复其他小问题<br>
-5.添加Tools第一个功能<br>
-6.添加邀请好友入群API<br>
-7.演示窗口恢复缺少引用后显示不全<br>
-
-[2020-01-31]QQLight_SDK_For_Csharp V1.5<br>
-
-1.可以获取群公告列表
-
-2.发布群公告，可选是否置顶和是否向新人推送
-
-3.发布作业，可选择是否需要提交，可自定义科目
-
-4.添加搜索电影资源的API接口
-
-[2020-01-31]QQLight_SDK_For_Csharp V1.5.2<br>
-
-1.删除了大多无用的文件夹
-
-2.修复撤回信息不能使用，没有效果以及报错或闪退
-
 
 #### 软件架构
 
