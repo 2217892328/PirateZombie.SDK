@@ -1,7 +1,4 @@
-﻿using fanxs.cn;
-using PirateZombie.SDK.MainFrom;
-using System.Runtime.InteropServices;
-using System.Windows.Forms;
+﻿using System.Runtime.InteropServices;
 
 namespace PirateZombie.SDK
 {
@@ -21,9 +18,6 @@ namespace PirateZombie.SDK
         public const int ASK_NEGLECT = 3; //请求_忽略
         public static string cjPath = "";  //插件目录
         public static int ac = 0;
-        public static Form1 ff = new Form1(); //设置窗口
-        public static repair re = new repair();
-
 
         // public string Informati();
         [DllExport("Information", CallingConvention = CallingConvention.Winapi)]
@@ -33,15 +27,15 @@ namespace PirateZombie.SDK
 
             string szPluginInfo = "{\r\n" +
 
-            "\"plugin_id\":\"PirateZombie.SDK.Demo\",   //插件ID\r\n" +
+            "\"plugin_id\":\"demos\",   //插件ID\r\n" +
 
-            "\"plugin_name\":\"PirateZombie.SDK.Demo\",        //插件名称\r\n" +
+            "\"plugin_name\":\"C#SDK_DEMO\",        //插件名称\r\n" +
 
-            "\"plugin_author\":\"Fanx繁星Cloud\",         //插件作者\r\n" +
+            "\"plugin_author\":\"Fanx繁星\",         //插件作者\r\n" +
 
-            "\"plugin_version\":\"1.5.3\",         //插件版本号\r\n" +
+            "\"plugin_version\":\"1.6.0\",         //插件版本号\r\n" +
 
-            "\"plugin_brief\":\"PirateZombie.SDK.Demo，有些功能需要Pro支持，请确保您的框架版本为pro版本\",        // \\r代表换行\r\n" +
+            "\"plugin_brief\":\"c#SDK_API演示，有些功能需要Pro支持，请确保您的框架版本为pro版本\",        // \\r代表换行\r\n" +
 
             "\"plugin_sdk\":\"1\",                 //SDK版本代号，固定值\r\n" +
 
@@ -60,7 +54,7 @@ namespace PirateZombie.SDK
         public static int Event_Initialization()
         {
             QLAPI.init();//初始化API，不可删除
-            QLAPI.Api_SendLog("调试信息", "初始化API成功，运行目录：" + Application.StartupPath, 3, ac);
+            QLAPI.Api_SendLog("test", "成功", 0, ac);
             return 0;
         }
 
@@ -102,6 +96,10 @@ namespace PirateZombie.SDK
         public static int Event_GetNewMsg(int type, string GroupID, string FromQQ, string Msg, string MsgID)
         {
             QLAPI.Api_SendLog("收到信息", string.Format("type:{0},GroupID:{1},FromQQ:{2},Msg:{3},MsgID:{4}", type, GroupID, FromQQ, Msg, MsgID), 0, ac);
+            if (Msg.IndexOf("s") > -1)
+            {
+                QLAPI.Api_SendMsg(type, GroupID, FromQQ, "您发送了带有s的字符串", ac);
+            }
             return MSG_CONTINUE;
 
             // MSG_INTERCEPT 代表拦截消息不传递到下一个插件，插件的优先级可以通过拖拽插件列表来调整  
@@ -246,34 +244,6 @@ namespace PirateZombie.SDK
         [DllExport("Event_Menu", CallingConvention = CallingConvention.Winapi)]
         public static int Event_Menu()
         {
-
-            //判断文件的存在
-            if (System.IO.File.Exists(Application.StartupPath + @"\DMSkin.dll"))
-            {
-                QLAPI.Api_SendLog("调试信息", "打开设置窗口", 0, ac);
-                if (ff.IsDisposed)
-                {
-                    ff = new Form1();
-                }
-                ff.Show();
-            }
-            else
-            {
-                QLAPI.Api_SendLog("调试信息", "未找到引用，载入恢复窗口", 0, ac);
-                if (re.IsDisposed)
-                {
-                    re = new repair();
-                }
-
-                re.Show();
-            }
-
-            QLAPI.Api_SendLog("调试信息", "打开设置窗口", 0, ac);
-            if (ff.IsDisposed)
-            {
-                ff = new Form1();
-            }
-            ff.Show();
             return 0;
         }
 

@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("QQLight SDK for C#")]
-[assembly: AssemblyDescription("QQLight SDK for C#")]
+[assembly: AssemblyTitle("PirateZombie.SDK")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("FANXSCN")]
-[assembly: AssemblyProduct("QQLight SDK for C#")]
-[assembly: AssemblyCopyright("Copyright © Fanx繁星 www.fanxs.cn")]
+[assembly: AssemblyCompany("HP Inc.")]
+[assembly: AssemblyProduct("PirateZombie.SDK")]
+[assembly: AssemblyCopyright("Copyright © HP Inc. 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("8bc2c861-d30c-425b-98a7-812792d2017d")]
+[assembly: Guid("5eaa1d50-4dcb-4eb5-8d83-43839c6d56c1")]
 
 // 程序集的版本信息由下列四个值组成: 
 //
@@ -29,8 +29,8 @@ using System.Runtime.InteropServices;
 //      生成号
 //      修订号
 //
-// 可以指定所有值，也可以使用以下所示的 "*" 预置版本号和修订号
+//可以指定所有这些值，也可以使用“生成号”和“修订号”的默认值
 //通过使用 "*"，如下所示:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.5.1.0100")]
-[assembly: AssemblyFileVersion("1.5.1.0100")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
