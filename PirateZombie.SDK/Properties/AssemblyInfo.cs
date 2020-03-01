@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("PirateZombie.SDK")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Fanx繁星，www.fanxs.cn,QQ:2217892328")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HP Inc.")]
+[assembly: AssemblyCompany("PirateZombie.SDK")]
 [assembly: AssemblyProduct("PirateZombie.SDK")]
-[assembly: AssemblyCopyright("Copyright © HP Inc. 2020")]
+[assembly: AssemblyCopyright("Copyright © Fanxing. 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -35,7 +35,7 @@ namespace PirateZombie.SDK
 
             "\"plugin_version\":\"1.6.0\",         //插件版本号\r\n" +
 
-            "\"plugin_brief\":\"c#SDK_API演示，有些功能需要Pro支持，请确保您的框架版本为pro版本\",        // \\r代表换行\r\n" +
+            "\"plugin_brief\":\"PirateZombie为c#开发者提供QQlight插件开发解决方案\",        // \\r代表换行\r\n" +
 
             "\"plugin_sdk\":\"1\",                 //SDK版本代号，固定值\r\n" +
 
