@@ -1,4 +1,4 @@
-/.vs/
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -8,7 +8,7 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
-/.vs/
+
 
 # Windows Installer files
 *.cab
@@ -29,7 +29,6 @@ $RECYCLE.BIN/
 .DS_Store
 .AppleDouble
 .LSOverride
-.vs/
 # Thumbnails
 ._*
 
