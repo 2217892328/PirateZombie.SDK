@@ -34,7 +34,6 @@ Csharp版本开发手册：（[https://github.com/2217892328/PirateZombie.SDK/wi
 
 3.通过API及事件，实现插件功能
 
-ps:如需要使用到演示窗口，请将packages\DMSKIN\dmskin.dll放在QQLight根目录下。
 
 
 #### 事件方法（代码有注释）
@@ -55,8 +54,8 @@ Event_FileArrive<br>
 Event_Menu<br>
 
 #### API方法
-QLAPI.Api_GetMovieJson(String name,String page)   获取影视资源接口调用
-
+KernelAPI (using Kernel.Fanxing)
+QLAPI
 #### 联系我
 如果有什么小bug，欢迎来告诉我
 
