@@ -14,7 +14,7 @@ QQLight开发插件时使用到的SDK
 
 #### 安装教程
 
-克隆/下载 V1.0（[下载ZIP](https://github.com/2217892328/PirateZombie.SDK/archive/master.zip/wiki)）
+克隆/下载
 使用VisualStudio打开（推荐vs2019）
 
 #### 使用教程
