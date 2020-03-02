@@ -8,7 +8,7 @@ QQLight开发插件时使用到的SDK
 
 目标框架 .net Framework 4.5
 
-目标平台 Windows x86
+目标平台 Windows x86（生成的插件请使用X86的，其他的会使插件信息读取失败）
 
 适用机器人：QQLight
 
